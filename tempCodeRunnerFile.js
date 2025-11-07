@@ -7,4 +7,6 @@ if(true){
 }
 for(let i = 0; i < 5; i++){
     console.log(age);
+    
+
 }
