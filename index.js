@@ -1,54 +1,20 @@
-// console.log("hello"); 
-// function sayname(){
-//     console.log("devanshi");
-// }
-// sayname();//function call
-// function count(){
-//     for(let i=1;i<=10;i++){
-//         console.log(i);
-//     }
-// }
-// count();
-// function number(num){
-//     console.log("printing number:",num);
-// }
-// number(7); // function call with argument 7
-// function number(num1 , num2){
-//     console.log("Average:",(num1 +num2)/2);
-// }
-// number(70, 39); // function call with arguments 7 and 3
-//return functions
-// function getsum(a,b,c){
-//     let sum=a + b + c; // returns the sum of a, b, and c
-//     return sum;
-// }
-// let result = getsum(10, 20, 30); // function call with arguments 10, 20, and 30
-// console.log("Sum:", result); // prints the result of the function call
-// function functionname(firstname, lastname) {
-//     let fullname = console.log("Hello", firstname, lastname);
-//     return fullname;
-//unreachable statement
-// }
-// let result = functionname("Devanshi", "Srivastava"); 
-
-//  function  multi(a,b){
-//     return a*b;
-
-//  }
-//  console.log(multi(5,6)); // prints the result of the function call
-// let squarenum =function(num){
-//     let ans =num**2;
-//     return ans;
-// }
-// let ans = squarenum(5);
-// console.log(ans);
-// function getexp(x,y){
-//     let ans=x**y;
-//     return ans;
-// }
-// console.log(getexp(2,3)); // prints the result of the function call
- let getexp= (x,y)=> {
-    let ans=x**y;
-    return ans;
-}
-console.log(getexp(2,3)); //arrow function
+//  console.log("babbar");
+//  console.log(Math.PI);
+//   console.log(Math.max(60,30,56,100,67));
+//    console.log(Math.min(60,30,56,100,67));
+//     console.log(Math.round(1.8));
+//  console.log(Math.floor (1.8));
+//   console.log(Math.ceil(1.8));
+//    console.log(Math.abs(-1.8));
+console.log(new Date());
+let date = new Date('June 29 1789 07:15');
+console.log(date);
+let newDate =new Date(2023, 5, 29, 7, 15, 0);
+console.log(newDate);
+console.log(newDate.getDate());
+console.log(newDate.getDay() ); 
+console.log(newDate.getFullYear());
+console.log(newDate.getHours());
+console.log(newDate.getMinutes());
+ console.log(newDate.setFullYear(2006));
+ console.log(newDate);
