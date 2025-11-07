@@ -54,3 +54,4 @@
 }
 
 console.log(getexp(2,3)); //arrow function
+
