@@ -49,6 +49,8 @@
 // console.log(getexp(2,3)); // prints the result of the function call
  let getexp= (x,y)=> {
     let ans=x**y;
+  abd
     return ans;
 }
+
 console.log(getexp(2,3)); //arrow function
