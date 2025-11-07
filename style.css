@@ -3,6 +3,7 @@
    font-family: Arial;
    box-sizing: border-box;
 }
+
 .navbar{
     height: 60px;
     background-color: #0f1111;
@@ -243,4 +244,5 @@ ul a {
     padding-top: 10px;
    
     
+
 }
